@@ -8,13 +8,13 @@ export default function Home() {
 				alt="FISHEATDUCK"
 				fill
 				priority
-				sizes="100vw"
+				sizes="50vw"
 				className="object-contain object-center"
 			/>
 			<span className="block text-3xl text-center absolute left-1/2 -translate-x-1/2 bottom-[18%] font-sankofa">
 				info@fisheatduck.com
 			</span>
-			<span className="block text-2xl text-center absolute left-1/2 -translate-x-1/2 bottom-[13%] font-roboto">
+			<span className="block text-xs text-center absolute left-1/2 -translate-x-1/2 bottom-[14%] font-roboto">
 				I&apos;m confused
 			</span>
 			<span className="block text-3xl text-center absolute left-1/2 -translate-x-1/2 bottom-[8%] font-roboto-mono">
