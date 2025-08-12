@@ -14,8 +14,8 @@ export default function Home() {
 			<span className="block text-3xl text-center absolute left-1/2 -translate-x-1/2 bottom-[18%] font-sankofa">
 				info@fisheatduck.com
 			</span>
-			<span className="block text-3xl text-center absolute left-1/2 -translate-x-1/2 bottom-[13%] font-roboto">
-				info@fisheatduck.com
+			<span className="block text-2xl text-center absolute left-1/2 -translate-x-1/2 bottom-[13%] font-roboto">
+				I&apos;m confused
 			</span>
 			<span className="block text-3xl text-center absolute left-1/2 -translate-x-1/2 bottom-[8%] font-roboto-mono">
 				info@fisheatduck.com
