@@ -2,13 +2,22 @@ import Image from 'next/image'
 
 export default function Home() {
 	return (
-		<main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start text-4xl relative w-screen h-screen bg-[#C6C6C6]/50">
+		<main className="relative w-screen h-screen bg-[#C6C6C6]/50">
 			<Image
-				src="/FED_V2-bw.png"
+				src="/FED_V3_alpha_avatar.png"
 				alt="FISHEATDUCK"
 				fill
 				className="object-contain object-center"
 			/>
+			<span className="block text-3xl text-center absolute left-1/2 -translate-x-1/2 bottom-[18%] font-sankofa">
+				info@fisheatduck.com
+			</span>
+			<span className="block text-3xl text-center absolute left-1/2 -translate-x-1/2 bottom-[13%] font-roboto">
+				info@fisheatduck.com
+			</span>
+			<span className="block text-3xl text-center absolute left-1/2 -translate-x-1/2 bottom-[8%] font-roboto-mono">
+				info@fisheatduck.com
+			</span>
 			<Image
 				src="/grainy.svg"
 				alt="FISHEATDUCK"
