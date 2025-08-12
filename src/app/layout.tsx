@@ -14,6 +14,13 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
+			<head>
+				<link
+					rel="preload"
+					href="/FED_V3_alpha_avatar.png"
+					as="image"
+				/>
+			</head>
 			<body
 				className={`${sankofa.variable} ${roboto.variable} ${robotoMono.variable} antialiased`}
 			>

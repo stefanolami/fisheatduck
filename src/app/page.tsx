@@ -8,6 +8,7 @@ export default function Home() {
 				alt="FISHEATDUCK"
 				fill
 				priority
+				sizes="100vw"
 				className="object-contain object-center"
 			/>
 			<span className="block text-3xl text-center absolute left-1/2 -translate-x-1/2 bottom-[18%] font-sankofa">
