@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Home() {
 	return (
-		<main className="relative w-screen h-screen bg-[#484848]/50 text-[#fff2f2]">
+		<main className="relative w-screen h-screen bg-[#484848]/50">
 			<Image
 				src="/FED_V3_alpha_avatar.png"
 				alt="FISHEATDUCK"
@@ -12,18 +12,18 @@ export default function Home() {
 				sizes="50vw"
 				className="object-contain object-center"
 			/>
-			<span className="block text-3xl text-center absolute left-1/2 -translate-x-1/2 bottom-[18%] font-sankofa">
+			<span className="block text-3xl text-center absolute left-1/2 -translate-x-1/2 bottom-[18%] font-sankofa text-[#fff2f2]">
 				info@fisheatduck.com
 			</span>
 			<Link
 				href="https://en.wikipedia.org/wiki/Platypus"
 				target="_blank"
 			>
-				<span className="block text-xs text-center absolute left-1/2 -translate-x-1/2 bottom-[14%] font-roboto">
+				<span className="block text-xs text-center absolute left-1/2 -translate-x-1/2 bottom-[14%] font-roboto text-black">
 					I&apos;m confused
 				</span>
 			</Link>
-			<span className="block text-3xl text-center absolute left-1/2 -translate-x-1/2 bottom-[8%] font-roboto-mono">
+			<span className="block text-3xl text-center absolute left-1/2 -translate-x-1/2 bottom-[8%] font-roboto-mono text-[#484848]">
 				info@fisheatduck.com
 			</span>
 			<Image
