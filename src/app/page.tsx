@@ -3,20 +3,15 @@ import Link from 'next/link'
 
 export default function Home() {
 	return (
-		<main className="relative w-screen h-screen bg-[#C6C6C6]/50 text-[#fff2f2]">
-			<Link
-				href="https://en.wikipedia.org/wiki/Platypus"
-				target="_blank"
-			>
-				<Image
-					src="/FED_V3_alpha_avatar.png"
-					alt="FISHEATDUCK"
-					fill
-					priority
-					sizes="50vw"
-					className="object-contain object-center"
-				/>
-			</Link>
+		<main className="relative w-screen h-screen bg-[#484848]/50 text-[#fff2f2]">
+			<Image
+				src="/FED_V3_alpha_avatar.png"
+				alt="FISHEATDUCK"
+				fill
+				priority
+				sizes="50vw"
+				className="object-contain object-center"
+			/>
 			<span className="block text-3xl text-center absolute left-1/2 -translate-x-1/2 bottom-[18%] font-sankofa">
 				info@fisheatduck.com
 			</span>
