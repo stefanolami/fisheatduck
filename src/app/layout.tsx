@@ -4,7 +4,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
 	title: 'FISHEATDUCK',
-	description: 'VFX',
+	description: 'VFX&c',
 }
 
 export default function RootLayout({
