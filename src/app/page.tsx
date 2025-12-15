@@ -52,6 +52,14 @@ export default function Home() {
 					<span className="sr-only">YouTube</span>
 				</Link>
 			</div>
+			{/* <Image
+				src="/FED_V5.png"
+				alt="FISHEATDUCK"
+				fill
+				priority
+				sizes="50vw"
+				className="object-contain object-center scale-[0.65]"
+			/> */}
 			<Image
 				src="/FED_V4.png"
 				alt="FISHEATDUCK"
